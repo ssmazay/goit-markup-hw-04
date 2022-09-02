@@ -95,6 +95,10 @@ nav {
   display: flex;
 }
 
+.envelope {
+  fill: red;
+}
+
 .logo {
   margin-right: 93px;
   color: #000000;
@@ -149,13 +153,9 @@ nav {
   margin: auto;
   padding-top: 200px;
   padding-bottom: 200px;
-  /* width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px; */
+  width: 1600px;
   background-color: #c4c4c4;
-  /* background-image: linear-gradient(2F303A); */
-  /* background-image: url(../images/hero/Шапка.jpeg); */
+  background-image: url(../images/hero/Шапка.jpeg);
 }
 .hero-title {
   display: block;
@@ -276,6 +276,7 @@ nav {
 
 .team-item {
   background-color: var(--main-bg-cl);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 /* .team-img  */
@@ -388,6 +389,7 @@ nav {
 .filters-btn:focus {
   color: var(--white-txt-cl);
   background-color: var(--link-txt-cl);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 .project-list {
   display: flex;
@@ -401,6 +403,10 @@ nav {
 
 .project-item {
   flex-basis: calc((100% - 30px * 2) / 3);
+}
+
+.project-item:hover {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .cards-name {
