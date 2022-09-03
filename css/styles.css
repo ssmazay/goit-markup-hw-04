@@ -95,10 +95,6 @@ nav {
   display: flex;
 }
 
-.envelope {
-  fill: red;
-}
-
 .logo {
   margin-right: 93px;
   color: #000000;
@@ -125,7 +121,14 @@ nav {
 .header-list .header-link.current {
   color: var(--link-txt-cl);
 }
-/* .header-item  */
+.header-icon {
+  display: flex;
+  width: 270px;
+  height: 120px;
+
+  /* justify-content: center; */
+  /* align-items: center; */
+}
 
 .header-link {
   display: block;
@@ -209,6 +212,16 @@ nav {
 
 .features-item {
   flex-basis: calc((100% - 30px * 3) / 4);
+}
+
+.features-icon {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondary-bg-cl);
+  margin-bottom: 30px;
 }
 
 .features-subtitles {
