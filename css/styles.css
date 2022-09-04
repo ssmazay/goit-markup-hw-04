@@ -128,7 +128,8 @@ nav {
 }
 
 .header-link {
-  display: block;
+  display: flex;
+  align-items: center;
   color: inherit;
   text-decoration: none;
   font-weight: 500;
@@ -138,10 +139,20 @@ nav {
   padding-top: 32px;
   padding-bottom: 32px;
 }
+
 .header-link:hover,
 .header-link:focus {
   color: var(--link-txt-cl);
 }
+.header-link-icon:hover,
+.header-link-icon:focus {
+  fill: var(--link-txt-cl);
+}
+
+.header-link-icon {
+  margin-right: 10px;
+}
+
 .link-to {
   color: var(--secondary-txt-cl);
 }
@@ -156,7 +167,14 @@ nav {
   width: 1600px;
   background-color: #c4c4c4;
   background-image: url(../images/hero/Шапка.jpeg);
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero/Шапка.jpeg);
 }
+
 .hero-title {
   display: block;
   margin-left: auto;
@@ -361,11 +379,6 @@ nav {
 .customers-list {
   display: flex;
   gap: 30px;
-  list-style: 0;
-}
-
-.customers-item {
-  list-style: 0;
 }
 
 .customers-icon {
@@ -436,8 +449,18 @@ nav {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-icon-list {
+.footer-icon-name {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-txt-cl);
+}
+
+.footer-icon-main {
   display: flex;
+  flex-direction: column;
 }
 
 /*Portfolio*/
@@ -485,7 +508,12 @@ nav {
   flex-basis: calc((100% - 30px * 2) / 3);
 }
 
-.project-item:hover {
+.project-link {
+  display: inline-block;
+}
+
+.project-item:hover,
+.project-item:focus {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
