@@ -125,9 +125,6 @@ nav {
   display: flex;
   width: 270px;
   height: 120px;
-
-  /* justify-content: center; */
-  /* align-items: center; */
 }
 
 .header-link {
@@ -164,8 +161,6 @@ nav {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  /* padding-top: 200px; */
-  /* padding-bottom: 40px; */
   font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
@@ -318,6 +313,8 @@ nav {
   letter-spacing: 0.03em;
 }
 
+/* .socials-list  */
+
 .section-customers {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -335,11 +332,31 @@ nav {
 .customers-list {
   display: flex;
   gap: 30px;
-  justify-content: space-between;
+  list-style: 0;
 }
 
 .customers-item {
+  list-style: 0;
+}
+
+.customers-icon {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
+  fill: #afb1b8;
+}
+
+.customers-list:hover {
+  color: var(--link-txt-cl);
+}
+
+.customers-icon:hover,
+.customers-icon:focus {
+  fill: var(--link-txt-cl);
 }
 
 /*Footer*/
@@ -388,6 +405,10 @@ nav {
 }
 .link-cl {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-icon-list {
+  display: flex;
 }
 
 /*Portfolio*/
