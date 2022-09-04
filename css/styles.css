@@ -315,6 +315,35 @@ nav {
 
 /* .socials-list  */
 
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.socials-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 44px;
+  height: 44px;
+
+  color: var(--main-txt-cl);
+  background-color: var(--light-txt-cl);
+  border-radius: 50%;
+}
+
+.socials-link:hover,
+.socials-link:focus {
+  color: var(--link-txt-cl);
+  /* background-color: lightblue; */
+}
+
+.socials-icon {
+  fill: currentColor;
+}
+
 .section-customers {
   padding-top: 94px;
   padding-bottom: 94px;
