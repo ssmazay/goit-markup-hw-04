@@ -342,7 +342,6 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* color: var(--main-txt-cl); */
   background-color: var(--main-bg-cl);
 
   width: 100%;
@@ -353,6 +352,7 @@ nav {
 .socials-link:focus {
   background-color: var(--link-txt-cl);
   border-radius: 50%;
+  fill: var(--white-txt-cl);
 }
 
 .socials-icon {
