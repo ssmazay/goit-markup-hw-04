@@ -359,10 +359,10 @@ nav {
   fill: #afb1b8;
 }
 
-.socials-icon:hover,
+/* .socials-icon:hover,
 .socials-icon:focus {
   fill: var(--main-bg-cl);
-}
+} */
 
 .section-customers {
   padding-top: 94px;
