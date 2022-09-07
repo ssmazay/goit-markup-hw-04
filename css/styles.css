@@ -352,7 +352,7 @@ nav {
 .socials-link:focus {
   background-color: var(--link-txt-cl);
   border-radius: 50%;
-  fill: var(--white-txt-cl);
+  fill: #ffffff;
 }
 
 .socials-icon {
