@@ -357,7 +357,7 @@ nav {
 
 .socials-link .socials-icon:hover,
 .socials-link .socials-icon:focus .socials-icon {
-  color: #ffffff;
+  fill: #ffffff;
 }
 
 /* .socials-icon:hover,
