@@ -352,18 +352,13 @@ nav {
 .socials-link:focus {
   background-color: var(--link-txt-cl);
   border-radius: 50%;
-  /* fill: var(--main-bg-cl); */
+  fill: var(--main-bg-cl);
 }
 
-.socials-link .socials-icon:hover,
-.socials-link .socials-icon:focus .socials-icon {
-  fill: #ffffff;
-}
-
-/* .socials-icon:hover,
+.socials-icon:hover,
 .socials-icon:focus {
   fill: var(--main-bg-cl);
-} */
+}
 
 .section-customers {
   padding-top: 94px;
