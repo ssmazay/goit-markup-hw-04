@@ -479,6 +479,8 @@ nav {
   color: var(--main-txt-cl);
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+  width: 100%;
+  height: 100%;
 }
 
 .footer-link-icon:hover,
@@ -486,11 +488,14 @@ nav {
   background-color: var(--link-txt-cl);
 }
 
-/* .footer-icon {
-  fill: currentColor;
-} */
+.footer-icon {
+  fill: var(--main-bg-cl);
+}
 
-/* .footer-icon-item { */
+.footer-icon-item {
+  width: 44px;
+  height: 44px;
+}
 
 /*Portfolio*/
 
