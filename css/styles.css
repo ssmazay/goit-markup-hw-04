@@ -343,6 +343,7 @@ nav {
   align-items: center;
   justify-content: center;
   background-color: var(--main-bg-cl);
+  fill: #afb1b8;
 
   width: 100%;
   height: 100%;
@@ -353,10 +354,6 @@ nav {
   background-color: var(--link-txt-cl);
   border-radius: 50%;
   fill: var(--main-bg-cl);
-}
-
-.socials-icon {
-  fill: #afb1b8;
 }
 
 .socials-icon:hover,
